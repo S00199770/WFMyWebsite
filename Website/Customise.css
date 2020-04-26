@@ -1,0 +1,251 @@
+
+/*Author: Mohamad Al-Darraji
+Year 1 Games Development
+Rad-Ti Studious CSS Code
+*/
+
+/* Main code section
+*/
+
+.main 
+{
+  max-width: 1000px;
+  margin: auto;
+}
+#MainLogo
+{
+    width: 70%;
+    height: 70%;
+    border: 3px solid white;
+}
+#homepage_logo
+{
+    float:right;
+}
+
+#HomePageimg
+{
+    width: 80%;
+    height: 80%;
+    border: 3px solid white;
+}
+#body1
+{
+    background-image: url("Images/hexagon.jpg");
+    /*
+    Link for Image:
+    https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd2v9y0dukr6mq2.cloudfront.net%2Fvideo%2Fthumbnail%2FmCz7hqj%2Fvideoblocks-animated-technological-sci-fi-hexagon-background-loop-black_relubun5g_thumbnail-full01.png&f=1&nofb=1
+    */
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    
+}
+#body2
+{
+    background-color:#454141;
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+#body3
+{
+    background-color:#454141;
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+#body4
+{
+    background-image: url(Images/hexagon.jpg);
+    /*
+    Link for image:
+    https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd2v9y0dukr6mq2.cloudfront.net%2Fvideo%2Fthumbnail%2FmCz7hqj%2Fvideoblocks-animated-technological-sci-fi-hexagon-background-loop-black_relubun5g_thumbnail-full01.png&f=1&nofb=1
+    */
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+footer
+{
+  padding: 10px;
+  text-align: center;
+  color: #ff0000;
+  margin: 0;
+  font-size: 18px;
+}
+
+hr
+{
+    background-color: white;
+}
+
+h1
+{   
+    color: #ff0000;
+    font-family: serif;
+    float: none;   
+    width:100%;
+    min-width: 500px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5%
+}
+
+h2
+{
+    font-family: serif;
+    text-align: center;
+    font-size: 25px;
+    color: #ff0000;
+    float: none;
+    width: 100%         
+}
+
+h3
+{
+    color: #ff0000;
+    font-family: serif;
+}
+
+
+p
+{
+    color: #ff0000;
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    width: 100%;    
+}
+
+a
+{
+    color: #ff0000;
+}
+
+
+
+
+/* Nav bar Code and CSS Code for the nav bar changing states from hover to not hover and clicked. Red when it is active page, Grey when cursor is on it and black when not hovering over it
+*/
+
+
+nav
+{
+    width: 100%;
+    background-color: #333;
+    display: block;
+    height: 46px;
+    
+
+}
+
+ul 
+{
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  float: left;
+  margin: 0;
+  padding: 0;
+  min-width: 500px;
+    
+}
+
+li 
+{
+  float: left;
+}
+
+li a 
+{
+ 
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: serif; 
+}
+
+li a:hover:not(.active) 
+{
+  background-color: #111;  
+}
+
+
+.active 
+{
+  background-color: #ff0000;
+}
+
+
+/* "Search" Bar */
+input[type=text] 
+{
+  float: right;
+  font-family: serif;
+  padding: 6px;
+  border: 2px solid grey;
+  margin-top: 5px;
+  margin-right: 16px;
+  font-size: 17px;
+  max-width: 200px;
+  min-width: 200px;
+}
+
+
+
+
+
+
+.row 
+{
+  margin: 8px 16px;
+}
+
+
+.row,
+.row > .column 
+{
+  width: 100%;
+  background-color: #333;
+  background-image: linear-gradient(#ff0000, gray, gray);
+}
+
+
+.column 
+{
+  float: left;
+  width: 25%;
+}
+
+
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+.content {
+  padding: 10px;
+}
+
+
+
+
+/*
+Below is code for the maps and videos
+*/
+
+
+iframe
+{
+    margin-left: 20%;
+}
+
+
+
+
+
